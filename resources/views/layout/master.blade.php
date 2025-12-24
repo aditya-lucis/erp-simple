@@ -35,6 +35,13 @@
                     <span>General Journal Transactions</span>
                 </a>
             </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/ledgers">
+                    <i class="fas fa-fw fa-sitemap"></i>
+                    <span>General Ledger</span>
+                </a>
+            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider">

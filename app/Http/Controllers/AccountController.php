@@ -32,9 +32,6 @@ class AccountController extends Controller
                                         <a id="edit" class="btn btn-warning btn-circle" data-id="' . $item->id . '">
                                             <i class="fas fa-pencil-alt"></i>
                                         </a>
-                                        <a id="delete" class="btn btn-danger btn-circle" data-id="' . $item->id . '">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
                                     </div>
                         ';
                     })

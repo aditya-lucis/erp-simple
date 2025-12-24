@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\JournalController;
+use App\Http\Controllers\LedgerController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +23,5 @@ Route::get('/', function () {
 
 Route::resource('/listcoa', AccountController::class);
 Route::resource('/generaljournal', JournalController::class);
+
+Route::get('/ledgers', [LedgerController::class, 'index']);
